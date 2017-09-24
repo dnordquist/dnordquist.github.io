@@ -3,6 +3,6 @@ title: Posts
 layout: posts
 ---
 
-## Posts.
+## Not Finding It?
 
-Not finding it here? Head over to the [archive](/archive).
+Head over to the [archive](/archive), where we keep older posts. 

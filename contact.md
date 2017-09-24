@@ -5,4 +5,6 @@ layout: inner
 
 ## Contact Us.
 
-Probably just send me an email at dnord-dot-com-at-dan, except reverse that. 
+The best way to get a hold of me, have a conversation about something I've posted here, or argue, is on Twitter: [@dnord](https://twitter.com/dnord).
+
+Otherwise probably just send me an email at dnord-dot-com-at-dan, except reverse that.

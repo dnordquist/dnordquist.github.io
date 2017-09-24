@@ -34,11 +34,18 @@ footer, header {
   }
 }
 
+footer, header, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 .postdate {
   font: {
     size:60%;
     weight:bold;
   }
-  line-height: 1em;
   color:$darkgrey;
+}
+
+.markdown-body {
+  font-family: 'Source Sans Pro', sans-serif !important;
 }
