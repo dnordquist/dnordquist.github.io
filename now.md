@@ -1,11 +1,10 @@
 ---
 title: Now
 layout: inner
-permalink: /now/
 ---
 ## Now
 
-This is my [Now](http://nownownow.com/about) page. I wrote it on 24 Sept 2017.
+This is my most recent [Now](http://nownownow.com/about) page. I wrote it on 24 Sept 2017.
 
 My focus these days:
 

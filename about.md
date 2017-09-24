@@ -1,11 +1,10 @@
 ---
 title: About
 layout: inner
-permalink: /about/
 ---
 ## About Dan
 
-I'm a software and development manager in Minnesota. I play guitar and write songs and I have three kids. 
+I'm a software and development manager in Minnesota. I play guitar and write songs and I have three kids.
 
 ## About This Site
 

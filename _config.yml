@@ -6,4 +6,6 @@ github:
   is_user_page: true
 github_username:  dnordquist
 
+permalink: /post/:year/:month/:day/:title.html
+
 theme: jekyll-theme-primer
