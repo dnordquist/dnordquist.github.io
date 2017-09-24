@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+  <body>
+    {% include header.html %}
+    <div class="container-lg px-3 my-5 markdown-body">
+
+      {{ content }}
+
+      {% assign current = "" %}
+      {% for post in site.posts %}
+      {% assign new = post.date | date: "%B %Y" %}
+      {% if current != new %}
+        {% if current != "" %}
+        </ul>
+        {% endif %}
+      {% assign current = new %}
+      <h3> {{ current }}</h3>
+      <ul>
+      {% endif %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a> : {{post.content | strip_html | truncatewords:5 }}
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>

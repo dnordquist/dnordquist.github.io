@@ -1,0 +1,30 @@
+---
+---
+
+@import "jekyll-theme-primer";
+
+header nav ul li {
+  display:inline;
+  padding:10px;
+}
+
+.maincontent {
+  font-size: 125%;
+}
+
+footer, header {
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+    background-color: #aaa;
+}
+
+footer, header, footer a, header a {
+  color: white;
+}
+
+.postdate {
+  font-size:60%;
+  line-height: 1em;
+  color:#777777;
+  font-weight:bold;
+}
