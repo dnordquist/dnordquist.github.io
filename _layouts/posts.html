@@ -4,20 +4,21 @@
   <body>
     {% include header.html %}
     <div class="container-lg px-3 my-5 markdown-body">
+      <div class="d-flex flex-wrap flex-md-row-reverse ">
+        <div class="col-md-4">
+              {{ content }}
+        </div>
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-7">
+          {% for post in site.posts limit: 10 %}
+            <h2><a href="{{post.url}}">{{ post.title }}</a> <small>{{ post.date | date_to_string }}</small></h2>
 
-      <div class="column three-fourths">
-            {% for post in site.posts limit: 10 %}
-              <h2><a href="{{post.url}}">{{ post.title }}</a></h2>
-                <p class="postdate">{{ post.date | date_to_string }}</p>
-                <div>{{ post.content }}</div>
-            {% endfor %}
+              <div>{{ post.content }}</div>
+          {% endfor %}
+        </div>
       </div>
-      <div class="column one-fourth">
-            {{ content }}
-      </div>
-
     </div>
-
     {% include footer.html %}
   </body>
 </html>

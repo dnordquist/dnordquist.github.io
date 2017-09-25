@@ -4,11 +4,12 @@
 @import "jekyll-theme-primer";
 
 $grey: #cecece;
+$lightgrey: $grey;
 $darkgrey: darken($grey, 50%);
-$lightgrey: #991111;
+$wine: #991111;
 
 a {
-  color: $lightgrey;
+  color: $wine;
 }
 
 header nav ul li {
@@ -48,4 +49,8 @@ footer, header, h1, h2, h3, h4, h5, h6 {
 
 .markdown-body {
   font-family: 'Source Sans Pro', sans-serif !important;
+  h2 small {
+    color: $lightgrey;
+    font-weight: normal;
+  }
 }
